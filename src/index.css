@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Playfair Display, Georgia, serif;
+    src: url(./assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf),url(./assets/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf),
+     url(./assets/fonts/Playfair_Display/PlayfairDisplay-Medium.ttf), url(./assets/fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf);
+
+     
+}
+@font-face {
+    font-family: Quicksand, Arial, sans-serif;
+    src: url(./assets/fonts/Quicksand/Quicksand-Regular.ttf),url(./assets/fonts/Quicksand/Quicksand-Medium.ttf),
+    url(./assets/fonts/Quicksand/Quicksand-SemiBold.ttf),url(./assets/fonts/Quicksand/Quicksand-Bold.ttf)
+    ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+   color: #000;
+}
+a:hover{
+    color: #000;
+}
+h1,h2{
+    font-family: Playfair Display, Georgia, serif;
+}
+a,p,h3{
+    font-family: Quicksand, Arial, sans-serif;
+}
+:root{
+--bg-light: #fff;
+--bg-dark:#f5f5f5;
+--color-dark: #000;
+--color-blue:#2c98f0cc;
+--color-red: #ec5453;
+--color-yellow:#f9bf3f;
+--color-light-purple:#a84cb8;
+--color-green:#2fa499;
+--color-dark-purple:#4054b2;
+--color-light-black:#000000b3;
+}

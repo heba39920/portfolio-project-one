@@ -1,0 +1,103 @@
+
+.sidebar{
+    background-color: var(--bg-dark);
+    position: fixed;
+   left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+  padding: 3rem 1.5rem;
+}
+.profile-img{
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/imgs/about-BgAkqdr2.jpg);
+    
+}
+.name{
+    font-weight: 700;
+    margin-bottom: .5rem;
+    font-size: 1.375rem;
+    color:var(--color-dark); 
+    font-family: c;
+}
+
+.name:hover{
+    color:var(--color-dark);
+}
+.navigation{
+margin: 0;
+padding: 0;
+}
+.navigation li{
+    margin-bottom: 10px;
+}
+.nav-element{
+    color: var(--color-light-black);
+    padding:5px 0 ;
+    position: relative;
+   transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s; 
+    font-weight: 500;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+      
+}
+.nav-element:hover{
+    color: var(--color-light-black);
+}
+.nav-element::after{
+    content: "";
+    background-color: var(--color-blue);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: .5px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transform: translateX(-50%)    ;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.nav-element:hover::after{
+    width:100%;
+    
+}
+.active{
+    color: var(--color-blue);
+}
+.jop-profile{
+    font-size: .75rem;
+    text-transform: uppercase;
+    line-height: 1.8;
+    font-weight: 400;
+    color: var(--color-light-black);
+    margin-bottom: 1.5rem;
+}
+.jop-profile a{
+    color: var(--color-blue);
+}
