@@ -45,3 +45,6 @@ a,p,h3{
 --color-dark-purple:#4054b2;
 --color-light-black:#000000b3;
 }
+body{
+    position: relative;
+}

@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+z-index: 10000;
 
   
   padding: 3rem 1.5rem;
@@ -100,4 +101,22 @@ padding: 0;
 }
 .jop-profile a{
     color: var(--color-blue);
+}
+.toggleIcon {
+   border: none;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+background-color: var(--bg-dark);
+    padding:1px 10px;
+    font-size: 25px;
+    color: var(--color-light-black);
+    z-index: 100000;
+}
+.overLay{
+    background-color: var(--color-light-black);
+    position: absolute;
+    inset: 0;
+    z-index: 5000;
+    opacity: .5;
 }

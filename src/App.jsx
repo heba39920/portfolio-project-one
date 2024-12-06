@@ -7,8 +7,7 @@ import Skills from "./Components/Skills/Skills";
 import Experience from "./Components/Experience/Experience";
 import Work from "./Components/Work/Work";
 import Error from "./Components/Error/Error";
-import 'bootstrap/dist/css/bootstrap.min.css';  
-import "react-bootstrap/dist/react-bootstrap.min.js";
+
 function App() {
   let routes = createBrowserRouter([{ path:"/", element: <MasterLayout />, 
     errorElement:<Error />,
