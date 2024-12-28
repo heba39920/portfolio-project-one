@@ -6,9 +6,10 @@
     padding: 0;
     padding-right: 1rem;
 }
-#work .nav-tabs .nav-link.active {
-    color: #2c98f0;
-    border: 0;
+
+ .nav-tabs .active {
+    color: #2c98f0 !important;
+    border: 0 !important;
     font-weight: 500;
     padding: 0;
     padding-right: 1rem;
@@ -82,3 +83,4 @@
         font-size: 16px;
         color: #333;
     }
+    

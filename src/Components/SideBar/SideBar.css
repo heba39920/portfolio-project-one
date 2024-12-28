@@ -104,14 +104,17 @@ padding: 0;
 }
 .toggleIcon {
    border: none;
-   position: absolute;
-   top: 20px;
-   left: 20px;
-background-color: var(--bg-dark);
-    padding:1px 10px;
-    font-size: 25px;
+    
+  position: absolute;
+  z-index: 5000;
+  top: 5px;
+  left:5px;
+
+   
+    font-size: 30px;
     color: var(--color-light-black);
-    z-index: 100000;
+
+    cursor: pointer;
 }
 .overLay{
     background-color: var(--color-light-black);
@@ -119,4 +122,11 @@ background-color: var(--bg-dark);
     inset: 0;
     z-index: 5000;
     opacity: .5;
+}
+
+.closeIcon{
+ position: absolute;
+ top:5px ;
+ right:10px;
+ font-size: 20px;
 }
